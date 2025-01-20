@@ -11,5 +11,6 @@ class AppColors {
   static const Color luckyGrey = Color(0xFF777777);
   static const Color hawkesBlue = Color(0xFFDEE0E4);
   static const Color darkGray = Color(0xFF313131);
-
+  static const Color quartz = Color(0xFFF7F4FB);
+  static const Color mercury  = Color(0xFFE5E5E5);
 }

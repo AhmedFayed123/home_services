@@ -32,20 +32,28 @@ class SplashViewBody extends StatelessWidget {
           ),
           CustomButton(
             title: AppStrings.signUp,
-            onPressed: () {context.go(AppRoutes.signUp);},
+            onPressed: () {
+              context.go(AppRoutes.signUp);
+            },
             borderColor: AppColors.primary,
             textColor: AppColors.orange,
             buttonColor: AppColors.primary,
           ),
-          SizedBox(height: 20.h,),
+          SizedBox(
+            height: 20.h,
+          ),
           CustomButton(
             title: AppStrings.login,
-            onPressed: () {},
+            onPressed: () {
+              context.go(AppRoutes.login);
+            },
             borderColor: AppColors.primary,
             textColor: AppColors.primary,
             buttonColor: AppColors.orange,
           ),
-          SizedBox(height: 26.h,),
+          SizedBox(
+            height: 26.h,
+          ),
           Text(
             AppStrings.skipThisStep,
             style: AppStyles.textButton15.copyWith(

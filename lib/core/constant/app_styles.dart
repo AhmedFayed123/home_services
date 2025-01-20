@@ -46,4 +46,16 @@ class AppStyles {
     color: AppColors.primary,
     fontFamily: AppStrings.poppins,
   );
+  static TextStyle textButton13 = const TextStyle(
+    fontSize: 13,
+    fontWeight: FontWeight.w600,
+    color: AppColors.bunker,
+    fontFamily: AppStrings.poppins,
+  );
+  static TextStyle textButton14 = const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: AppColors.orange,
+    fontFamily: AppStrings.poppins,
+  );
 }

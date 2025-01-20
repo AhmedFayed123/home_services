@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:home_services/features/sign_up/presentation/views/widgets/complete_info_view_body.dart';
+import 'package:home_services/features/sign_up/presentation/views/widgets/verify_phone_number_view_body.dart';
 
 import '../../../../core/router/routes.dart';
 import '../../../../core/utils/widgets/custom_app_bar.dart';
 
-class CompleteInfoView extends StatelessWidget {
-  const CompleteInfoView({super.key});
+class VerifyPhoneNumberView extends StatelessWidget {
+  const VerifyPhoneNumberView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class CompleteInfoView extends StatelessWidget {
                   context.go(AppRoutes.signUp);
                 },
               ),
-              const CompleteInfoViewBody(),
+              const VerifyPhoneNumberViewBody(),
             ],
           ),
         ),
